@@ -22,4 +22,12 @@ def calculator():
         Para las entradas "10", "5" y "x", la salida esperada es:
         Operacion invalida
     """
-    pass
+    num1=int(input("Cual es el numero 1:"))
+    num2=int(input("Cual es el numero 2:"))
+    funcion=input("Cual va a ser la funcion: ")
+    if funcion=="+":print(num1+num2)
+    elif funcion=="+":print(num1-num2)
+    elif funcion=="*":print(num1*num2)    
+    elif funcion=="/" and num2==0:print("Error: division por cero")
+    elif funcion=="/":print(num1/num2)
+    else:print("Operacion invalida")
